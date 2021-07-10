@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.container-menu{
+    display: flex;
+    margin: auto;
+    height: 60px;
+}
+.container-menu .list{
+    width: 80%;  
+    padding-top: 6px;
+}
+.container-menu .list ul{
+    display: flex;
+    justify-content: space-around;
+    line-height: 60px;
+}
+.container-menu .icon{  
+    width: 20%;        
+}
+.container-menu .far{
+    width: 20%;
+    /* height: 46%; */
+    border: 2px solid;
+    border-radius: 50%;   
+    text-align: center;    
+    line-height: 46px;
+    font-size: 35px;  
+    font-weight: 700;  
+}
+.container-menu .icon p{    
+        text-align: right;
+        margin-right: 20px; 
+        width: 100%;   
+}
