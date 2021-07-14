@@ -2,14 +2,19 @@
     padding: 0%;
     margin: 0%;
 }
-.container{
-    width: 95%;
+header.container{
+    width: 100%;
     margin: auto;
+    background: url(https://cdn.pixabay.com/photo/2021/05/18/07/38/desert-6262547_960_720.jpg);
+    background-size: cover;
+    height: 40vh;
 }
 .container-menu{
+    width: 95%;
     display: flex;
     margin: auto;
     height: 60px;
+    border-bottom:2px solid rgb(187, 149, 149);
 }
 .container-menu .list{
     width: 80%;  
@@ -37,4 +42,26 @@
         text-align: right;
         margin-right: 20px; 
         width: 100%;   
+}
+.container-img{
+    padding: 72px 0px 0px 122px;
+}
+/* .container-img .btn{
+    display: block;    
+} */
+input.buscar {
+    width: 87%;
+    padding: 7px;
+    outline: none;
+    border: white;
+    font-size: 20px;
+}
+button.btn {
+    width: 50%;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color:white;
+}
+i.fas.fa-search {
+    margin-top: 10px;
 }
