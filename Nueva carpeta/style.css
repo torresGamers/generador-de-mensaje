@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    /* border: solid; */
+    /* color: red; */
+}
+.container{
+    width: 97%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    /* display: flex; */
+    justify-content: space-between;
+}
+.container .formulario, .contenedor-w{
+    float: left;
+   padding: 10px 5px;
+    width: 48%;
+    border: 1px solid green;
+
+}
+.container .contenedor{
+    float: right;
+    padding: 10px 5px;
+    width: 48%;
+    border: 1px solid green;
+    height: 300px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor .nuevoDiv{
+    width: 49%;
+    /* height:150px ; */
+    margin: auto;
+    margin-top: 10px;
+    /* float: left; */
+}
+.container .nuevoDiv img{
+    width: 100%;
+
+}
+/* .contenedor-w{
+    width: 46%;
+    margin-right: 3px;
+} */
+
+
